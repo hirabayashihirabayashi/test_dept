@@ -1,14 +1,11 @@
-[
-	{
-		"DEPARTMENT_ID":"000",
-		"DEPARTMENT_NAME":"AAA編集部"
-	},
-	{
-		"DEPARTMENT_ID":"001",
-		"DEPARTMENT_NAME":"BBB編集部"
-	},
-	{
-		"DEPARTMENT_ID":"002",
-		"DEPARTMENT_NAME":"CCC編集部"
-	}
-]
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
