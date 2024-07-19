@@ -1,5 +1,31 @@
-[
- {"DEPT_ID":"000","DEPT_NAME":"AAA編集部"},
- {"DEPT_ID":"001","DEPT_NAME":"BBB編集部"},
- {"DEPT_ID":"002","DEPT_NAME":"CCC編集部"}
-]
+{
+  "posts": [
+    {
+     "DEPT_ID": "000",
+     "DEPT_NAME": "AAA編集部"
+    },
+    {
+     "DEPT_ID": "001",
+     "DEPT_NAME": "BBB編集部"
+    },
+    {
+     "DEPT_ID": "002",
+     "DEPT_NAME": "CCC編集部"
+    }
+],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
